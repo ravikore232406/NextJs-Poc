@@ -1,0 +1,48 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    height: 100%;
+ }
+ .latestAndTrendingSliderMain{
+   display: inline-block;
+   padding-bottom: 5px;
+   margin-right: 10px;
+ }
+ .slick-arrow.slick-prev.slick-disabled, .slick-arrow.slick-next.slick-disabled{
+   display: none !important;
+ }
+ .slick-prev, .slick-next{
+   background-color: #8f2222 !important;
+ }
+ .vertical{ width: 147px;
+ }
+
+.vertical .card-img-container{
+  padding-bottom: calc(1.32821 * 100%);
+  position: relative;
+}
+
+.vertical .card-img-container img{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  display: inline-block;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+  @media only screen and (min-width: 1170px){
+  .vertical {width: calc(calc(100vw - 105px) / 8.5);}
+}
